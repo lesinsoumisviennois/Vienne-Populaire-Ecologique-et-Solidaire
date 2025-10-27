@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vienne Pop 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Vienne Pop 2026</h1>
+        <p>Bienvenue sur notre site citoyen</p>
+    </header>
+
+    <section class="gallery">
+        <h2>Découvrir Vienne</h2>
+        <div class="images">
+            <img src="images/centre-ville.jpg" alt="Centre ville de Vienne">
+            <img src="images/marche.jpg" alt="Marché de Vienne">
+            <img src="images/theatre.jpg" alt="Théâtre de Vienne">
+        </div>
+    </section>
+
+    <section class="chat-section">
+        <h2>Assistant Virtuel</h2>
+        <iframe src="chatbot.html" class="chat-frame"></iframe>
+    </section>
+
+    <section class="form-section">
+        <h2>Questionnaire & Inscription</h2>
+        <form action="https://formspree.io/f/xzzjybne" method="POST" class="form-container">
+            <label for="name">Nom complet</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="message">Message / Question</label>
+            <textarea name="message" id="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Vienne Pop - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
